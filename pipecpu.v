@@ -130,7 +130,7 @@ module pipecpu(clk, rst, instr, readdata, PC, MemWrite, aluout, writedata, reg_s
          .m2reg(dm2reg),
          .wmem(dwmem),
          .aluc(daluc),
-         .aluimm(daluimm)
+         .aluimm(daluimm),
          .a(da),
          .b(db),
          .imm(dimm),

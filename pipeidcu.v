@@ -8,14 +8,14 @@ module pipeidcu (mwreg, mrn, ern, ewreg, em2reg, mm2reg, rsrtequ, func, op, rs, 
 	input [5:0] func, op;
 
 	output     wreg, m2reg, wmem, regrt, aluimm, sext, shift, jal;
-	output [3:0] func;
+	output [3:0] aluc;
 	output [1:0] pcsource;
 	output [1:0] fwda, fwdb;
 	output nostall;
 
 	reg [1:0] fwda, fwdb;
 
-	wire r_type, i_add, i_sub, i_and, i_or, i_xor, i_sll, i_sra, i_jr;
+	wire r_type, i_add, i_sub, i_and, i_or, i_xor, i_sll,i_srl, i_sra, i_jr;
 	wire i_addi, i_andi, i_ori, i_xori, i_lw, i_sw, i_beq, i_bne, i_lui, i_j, i_jal;
 
 	/*
@@ -28,6 +28,10 @@ module pipeidcu (mwreg, mrn, ern, ewreg, em2reg, mm2reg, rsrtequ, func, op, rs, 
 
 
 	and(i_addi, ~op[5], ~op[4], op[3], ~op[2], ~op[1], ~op[0]);
+
+	wire i_rs = i_add | i_sub | i_and | i_or | i_xor | i_jr | i_addi | i_andi | i_ori | i_xori | i_lw | i_sw | i_beq | i_bne;
+
+	wire i_rt = i_add | i_sub | i_and | i_or | i_xor | i_sll | i_srl | i_sra | i_sw | i_beq | i_bne;
 
 
 	assign nostall = ~(ewreg & em2reg & (ern != 0) & (i_rs & (ern == rs) | i_rt & (ern == rt)));

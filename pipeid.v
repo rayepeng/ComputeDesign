@@ -41,7 +41,7 @@ clrn, bpc, jpc, pcsource, nostall, wreg, m2reg, wmem, aluc, aluimm, a,b,imm, rn,
 
 	assign rsrtequ = ~|(a^b);                    //提前判断beq和bne指令
 
-	assign e = sext & inst[15];
+	assign e = sext & dinst[15];
 
 	assign ext16 = {16{e}};
 

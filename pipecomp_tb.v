@@ -7,7 +7,7 @@ module pipecomp_tb();
    wire [31:0] reg_data;
     
 // instantiation of sccomp    
-   sccomp U_SCCOMP(
+   pipecomp U_SCCOMP(
       .clk(clk), .rstn(rstn), .reg_sel(reg_sel), .reg_data(reg_data) 
    );
 

@@ -1,5 +1,5 @@
 module pipedereg(dwreg, dm2reg, dwmem, daluc, daluimm, da, db, dimm, drn, dshift, djal, dpc4, clk, clrn, 
-                 ewreg, ewmem, ealuc, ealuimm, ea, eb, eimm, ern, eshift, ejal, epc4);
+                 ewreg,em2reg ,ewmem, ealuc, ealuimm, ea, eb, eimm, ern, eshift, ejal, epc4);
 
 	input [31:0] da, db, dimm, dpc4;
 	input [31:0] drn;
@@ -18,7 +18,7 @@ module pipedereg(dwreg, dm2reg, dwmem, daluc, daluimm, da, db, dimm, drn, dshift
 
 	reg	          ewreg, em2reg, ewmem, ealuimm, eshift, ejal;
 
-	alsways @(negedge clrn or posedge clk)
+	always @ (negedge clrn or posedge clk)begin
 	if(clrn == 0)
 	begin
 		ewreg <= 0;
@@ -49,6 +49,8 @@ module pipedereg(dwreg, dm2reg, dwmem, daluc, daluimm, da, db, dimm, drn, dshift
 		epc4 <= dpc4;
 
 	end
+	end
+
 
 endmodule
 

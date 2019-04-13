@@ -1,142 +1,134 @@
-D:/Pipe_test/pipeidcu.v {0 {vlog -work work -stats=none D:/Pipe_test/pipeidcu.v
+D:/Pipe_test/pipeidcu.v {1 {vlog -work work -stats=none {D:\Pipe_test\pipeidcu.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module pipeidcu
-** Error: D:/Pipe_test/pipeidcu.v(11): 'func' already declared in this scope (pipeidcu) with a conflicting port direction.
-** Error: D:/Pipe_test/pipeidcu.v(33): (vlog-2730) Undefined variable: 'i_rs'.
-** Error: D:/Pipe_test/pipeidcu.v(33): (vlog-2730) Undefined variable: 'i_rt'.
-** Error: D:/Pipe_test/pipeidcu.v(67): (vlog-2730) Undefined variable: 'i_srl'.
-** Error (suppressible): D:/Pipe_test/pipeidcu.v(75): (vlog-13299) Undefined variable: 'aluc'.
-** Error (suppressible): D:/Pipe_test/pipeidcu.v(76): (vlog-13299) Undefined variable: 'aluc'.
-** Error (suppressible): D:/Pipe_test/pipeidcu.v(77): (vlog-13299) Undefined variable: 'aluc'.
-** Error (suppressible): D:/Pipe_test/pipeidcu.v(78): (vlog-13299) Undefined variable: 'aluc'.
-** Error: D:/Pipe_test/pipeidcu.v(2): (vlog-2730) Undefined variable: 'aluc'.
-** Error: D:/Pipe_test/pipeidcu.v(2): (vlog-13294) Identifier must be declared with a port mode: aluc.
 
-} {4.0 8.0 12.0 14.0} {}} D:/Pipe_test/pipeid.v {0 {vlog -work work -stats=none D:/Pipe_test/pipeid.v
+Top level modules:
+	pipeidcu
+
+} {} {}} D:/Pipe_test/pipeid.v {1 {vlog -work work -stats=none {D:\Pipe_test\pipeid.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module pipeid
-** Error: D:/Pipe_test/pipeid.v(44): (vlog-2730) Undefined variable: 'inst'.
 
-} {4.0 5.0} {}} D:/Pipe_test/mux4x32.v {1 {vlog -work work -stats=none D:/Pipe_test/mux4x32.v
+Top level modules:
+	pipeid
+
+} {} {}} D:/Pipe_test/mux4x32.v {1 {vlog -work work -stats=none {D:\Pipe_test\mux4x32.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module mux4x32
 
 Top level modules:
 	mux4x32
 
-} {} {}} D:/Pipe_test/pipeif.v {1 {vlog -work work -stats=none D:/Pipe_test/pipeif.v
+} {} {}} D:/Pipe_test/pipeif.v {1 {vlog -work work -stats=none {D:\Pipe_test\pipeif.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module pipeif
 
 Top level modules:
 	pipeif
 
-} {} {}} D:/Pipe_test/cla32.v {1 {vlog -work work -stats=none D:/Pipe_test/cla32.v
+} {} {}} D:/Pipe_test/cla32.v {1 {vlog -work work -stats=none {D:\Pipe_test\cla32.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module cla32
 
 Top level modules:
 	--none--
 
-} {} {}} D:/Pipe_test/pipeemreg.v {1 {vlog -work work -stats=none D:/Pipe_test/pipeemreg.v
+} {} {}} D:/Pipe_test/pipeemreg.v {1 {vlog -work work -stats=none {D:\Pipe_test\pipeemreg.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module pipeemreg
 
 Top level modules:
 	pipeemreg
 
-} {} {}} D:/Pipe_test/pipemwreg.v {1 {vlog -work work -stats=none D:/Pipe_test/pipemwreg.v
+} {} {}} D:/Pipe_test/pipemwreg.v {1 {vlog -work work -stats=none {D:\Pipe_test\pipemwreg.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module pipemwreg
 
 Top level modules:
 	pipemwreg
 
-} {} {}} D:/Pipe_test/pipeexe.v {1 {vlog -work work -stats=none D:/Pipe_test/pipeexe.v
+} {} {}} D:/Pipe_test/pipeexe.v {1 {vlog -work work -stats=none {D:\Pipe_test\pipeexe.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module pipeexe
 
 Top level modules:
 	pipeexe
 
-} {} {}} D:/Pipe_test/alu.v {1 {vlog -work work -stats=none D:/Pipe_test/alu.v
+} {} {}} D:/Pipe_test/alu.v {1 {vlog -work work -stats=none {D:\Pipe_test\alu.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module alu
 
 Top level modules:
 	alu
 
-} {} {}} D:/Pipe_test/pipecomp.v {1 {vlog -work work -stats=none D:/Pipe_test/pipecomp.v
+} {} {}} D:/Pipe_test/pipecomp.v {1 {vlog -work work -stats=none {D:\Pipe_test\pipecomp.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module pipecomp
 
 Top level modules:
 	pipecomp
 
-} {} {}} D:/Pipe_test/pipedereg.v {0 {vlog -work work -stats=none D:/Pipe_test/pipedereg.v
+} {} {}} D:/Pipe_test/pipedereg.v {1 {vlog -work work -stats=none {D:\Pipe_test\pipedereg.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module pipedereg
-** Error: (vlog-13069) D:/Pipe_test/pipedereg.v(21): near "@": syntax error, unexpected '@'.
-** Error: D:/Pipe_test/pipedereg.v(21): (vlog-13205) Syntax error found in the scope following 'alsways'. Is there a missing '::'?
 
-} {4.0 6.0} {}} D:/Pipe_test/regfile.v {0 {vlog -work work -stats=none D:/Pipe_test/regfile.v
+Top level modules:
+	pipedereg
+
+} {} {}} D:/Pipe_test/pipecpu.v {1 {vlog -work work -stats=none {D:\Pipe_test\pipecpu.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module regfile
-** Error: D:/Pipe_test/regfile.v(17): Declarations not allowed in unnamed block.
-** Error: (vlog-13069) D:/Pipe_test/regfile.v(23): near "end": syntax error, unexpected end.
+-- Compiling module pipecpu
 
-} {4.0 6.0} {}} D:/Pipe_test/im.v {1 {vlog -work work -stats=none D:/Pipe_test/im.v
+Top level modules:
+	pipecpu
+
+} {} {}} D:/Pipe_test/im.v {1 {vlog -work work -stats=none {D:\Pipe_test\im.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module im
 
 Top level modules:
 	im
 
-} {} {}} D:/Pipe_test/pipecpu.v {0 {vlog -work work -stats=none D:/Pipe_test/pipecpu.v
+} {} {}} D:/Pipe_test/regfile.v {1 {vlog -work work -stats=none {D:\Pipe_test\regfile.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module pipecpu
-** Error: (vlog-13069) D:/Pipe_test/pipecpu.v(134): near ".": syntax error, unexpected '.', expecting ')'.
+-- Compiling module regfile
 
-} {4.0 5.0} {}} D:/Pipe_test/addsub32.v {1 {vlog -work work -stats=none D:/Pipe_test/addsub32.v
+Top level modules:
+	regfile
+
+} {} {}} D:/Pipe_test/addsub32.v {1 {vlog -work work -stats=none {D:\Pipe_test\addsub32.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module addsub32
 
 Top level modules:
 	addsub32
 
-} {} {}} D:/Pipe_test/pipepc.v {1 {vlog -work work -stats=none D:/Pipe_test/pipepc.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module pipepc
-
-Top level modules:
-	pipepc
-
-} {} {}} D:/Pipe_test/pipeir.v {1 {vlog -work work -stats=none D:/Pipe_test/pipeir.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module pipeir
-
-Top level modules:
-	pipeir
-
-} {} {}} D:/Pipe_test/dm.v {1 {vlog -work work -stats=none D:/Pipe_test/dm.v
+} {} {}} D:/Pipe_test/dm.v {1 {vlog -work work -stats=none {D:\Pipe_test\dm.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module dm
 
 Top level modules:
 	dm
 
-} {} {}} D:/Pipe_test/dffe32.v {1 {vlog -work work -stats=none D:/Pipe_test/dffe32.v
+} {} {}} D:/Pipe_test/pipeir.v {1 {vlog -work work -stats=none {D:\Pipe_test\pipeir.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module pipeir
+
+Top level modules:
+	pipeir
+
+} {} {}} D:/Pipe_test/pipepc.v {1 {vlog -work work -stats=none {D:\Pipe_test\pipepc.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module pipepc
+
+Top level modules:
+	pipepc
+
+} {} {}} D:/Pipe_test/dffe32.v {1 {vlog -work work -stats=none {D:\Pipe_test\dffe32.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module dffe32
 
 Top level modules:
 	dffe32
-
-} {} {}} D:/Pipe_test/pipecomp_tb.v {1 {vlog -work work -stats=none D:/Pipe_test/pipecomp_tb.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module pipecomp_tb
-
-Top level modules:
-	pipecomp_tb
 
 } {} {}}
