@@ -1,11 +1,4 @@
-D:/Pipe_test/pipeidcu.v {1 {vlog -work work -stats=none D:/Pipe_test/pipeidcu.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module pipeidcu
-
-Top level modules:
-	pipeidcu
-
-} {} {}} D:/Pipe_test/pipeid.v {1 {vlog -work work -stats=none D:/Pipe_test/pipeid.v
+D:/Pipe_test/pipeid.v {1 {vlog -work work -stats=none D:/Pipe_test/pipeid.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module pipeid
 
@@ -77,6 +70,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 2
 
 Top level modules:
 	pipecomp
+
+} {} {}} D:/Pipe_test/regfile.v {1 {vlog -work work -stats=none D:/Pipe_test/regfile.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module regfile
+
+Top level modules:
+	regfile
 
 } {} {}} D:/Pipe_test/pipecpu.v {1 {vlog -work work -stats=none D:/Pipe_test/pipecpu.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018

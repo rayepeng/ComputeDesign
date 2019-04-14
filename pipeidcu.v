@@ -126,6 +126,7 @@ end
 	assign m2reg = i_lw;
 	assign shift = i_sll | i_srl | i_sra;
 	assign aluimm = i_addi | i_lw | i_sw | i_beq | i_bne;
+	assign sext = i_addi | i_lw | i_sw | i_beq | i_bne;
     assign aluc[0] = i_add | i_lw | i_sw | i_addi | i_and   | i_srl  |i_lui | i_andi;
     assign aluc[1] = i_sub | i_beq | i_and | i_bne | i_sra  | i_andi;
     assign aluc[2] = i_or | i_ori   | i_lui;
