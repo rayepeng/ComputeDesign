@@ -198,7 +198,7 @@ module pipecpu(clk, rst, instr, readdata, PC, MemWrite, aluout, writedata, reg_s
             .clrn(rst),
             .mwreg(mwreg),
             .mm2reg(mm2reg),
-            .mwmem(mwmem),
+            .mwmem(MemWrite),
             .malu(aluout),                //注意！！ 此处的aluout即为写存储器地址
             .mb(writedata),               //注意！！ 此处的writedata即为要写存储器的数据
             .mrn(mrn)
