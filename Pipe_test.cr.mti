@@ -1,4 +1,11 @@
-D:/Pipe_test/pipeid.v {1 {vlog -work work -stats=none D:/Pipe_test/pipeid.v
+D:/Pipe_test/pipeidcu.v {1 {vlog -work work -stats=none D:/Pipe_test/pipeidcu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module pipeidcu
+
+Top level modules:
+	pipeidcu
+
+} {} {}} D:/Pipe_test/pipeid.v {1 {vlog -work work -stats=none D:/Pipe_test/pipeid.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module pipeid
 
@@ -50,13 +57,6 @@ Top level modules:
 } {} {}} D:/Pipe_test/ctrl_encode_def.v {1 {vlog -work work -stats=none D:/Pipe_test/ctrl_encode_def.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
 
-} {} {}} D:/Pipe_test/alu.v {1 {vlog -work work -stats=none D:/Pipe_test/alu.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module alu
-
-Top level modules:
-	alu
-
 } {} {}} D:/Pipe_test/pipedereg.v {1 {vlog -work work -stats=none D:/Pipe_test/pipedereg.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module pipedereg
@@ -71,12 +71,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 2
 Top level modules:
 	pipecomp
 
-} {} {}} D:/Pipe_test/pipecpu.v {1 {vlog -work work -stats=none D:/Pipe_test/pipecpu.v
+} {} {}} D:/Pipe_test/regfile.v {1 {vlog -work work -stats=none D:/Pipe_test/regfile.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module pipecpu
+-- Compiling module regfile
 
 Top level modules:
-	pipecpu
+	regfile
 
 } {} {}} D:/Pipe_test/im.v {1 {vlog -work work -stats=none D:/Pipe_test/im.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
@@ -85,12 +85,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 2
 Top level modules:
 	im
 
-} {} {}} D:/Pipe_test/regfile.v {1 {vlog -work work -stats=none D:/Pipe_test/regfile.v
+} {} {}} D:/Pipe_test/pipecpu.v {1 {vlog -work work -stats=none D:/Pipe_test/pipecpu.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module regfile
+-- Compiling module pipecpu
 
 Top level modules:
-	regfile
+	pipecpu
 
 } {} {}} D:/Pipe_test/dffe32_tb.v {1 {vlog -work work -stats=none D:/Pipe_test/dffe32_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
@@ -99,26 +99,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 2
 Top level modules:
 	dffe32_tb
 
-} {} {}} D:/Pipe_test/mux2x5.v {1 {vlog -work work -stats=none D:/Pipe_test/mux2x5.v
+} {} {}} D:/Pipe_test/pipepc.v {1 {vlog -work work -stats=none D:/Pipe_test/pipepc.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module mux2x5
+-- Compiling module pipepc
 
 Top level modules:
-	mux2x5
-
-} {} {}} D:/Pipe_test/mux2x32.v {1 {vlog -work work -stats=none D:/Pipe_test/mux2x32.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module mux2x32
-
-Top level modules:
-	mux2x32
-
-} {} {}} D:/Pipe_test/dm.v {1 {vlog -work work -stats=none D:/Pipe_test/dm.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module dm
-
-Top level modules:
-	dm
+	pipepc
 
 } {} {}} D:/Pipe_test/pipeir.v {1 {vlog -work work -stats=none D:/Pipe_test/pipeir.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
@@ -127,19 +113,26 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 2
 Top level modules:
 	pipeir
 
-} {} {}} D:/Pipe_test/pipepc.v {1 {vlog -work work -stats=none D:/Pipe_test/pipepc.v
+} {} {}} D:/Pipe_test/dm.v {1 {vlog -work work -stats=none D:/Pipe_test/dm.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module pipepc
+-- Compiling module dm
 
 Top level modules:
-	pipepc
+	dm
 
-} {} {}} D:/Pipe_test/dffe32.v {1 {vlog -work work -stats=none D:/Pipe_test/dffe32.v
+} {} {}} D:/Pipe_test/mux2x32.v {1 {vlog -work work -stats=none D:/Pipe_test/mux2x32.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module dffe32
+-- Compiling module mux2x32
 
 Top level modules:
-	dffe32
+	mux2x32
+
+} {} {}} D:/Pipe_test/mux2x5.v {1 {vlog -work work -stats=none D:/Pipe_test/mux2x5.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mux2x5
+
+Top level modules:
+	mux2x5
 
 } {} {}} D:/Pipe_test/pipecomp_tb.v {1 {vlog -work work -stats=none D:/Pipe_test/pipecomp_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
@@ -147,5 +140,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 2
 
 Top level modules:
 	pipecomp_tb
+
+} {} {}} D:/Pipe_test/dffe32.v {1 {vlog -work work -stats=none D:/Pipe_test/dffe32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module dffe32
+
+Top level modules:
+	dffe32
 
 } {} {}}

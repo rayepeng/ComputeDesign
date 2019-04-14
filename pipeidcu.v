@@ -37,18 +37,18 @@ module pipeidcu (mwreg, mrn, ern, ewreg, em2reg, mm2reg, rsrtequ, func, op, rs, 
    wire i_and  = r_type& func[5]&~func[4]&~func[3]& func[2]&~func[1]&~func[0]; // and
    wire i_or   = r_type& func[5]&~func[4]&~func[3]& func[2]&~func[1]& func[0]; // or
    wire i_xor  = r_type& func[5]&~func[4]&~func[3]& func[2]& func[1]&~func[0];
-   // wire i_slt  = r_type& func[5]&~func[4]& func[3]&~func[2]& func[1]&~func[0]; // slt
+   wire i_slt  = r_type& func[5]&~func[4]& func[3]&~func[2]& func[1]&~func[0]; // slt
    // wire i_sltu = r_type& func[5]&~func[4]& func[3]&~func[2]& func[1]& func[0]; // sltu
    // wire i_addu = r_type& func[5]&~func[4]&~func[3]&~func[2]&~func[1]& func[0]; // addu
    // wire i_subu = r_type& func[5]&~func[4]&~func[3]&~func[2]& func[1]& func[0]; // subu
    wire i_jr   = r_type&~func[5]&~func[4]& func[3]&~func[2]&~func[1]&~func[0]; //jr 001000
    // wire i_jalr = r_type&~func[5]&~func[4]& func[3]&~func[2]&~func[1]& func[0]; //jalr 001001
-   // wire i_nor  = r_type& func[5]&~func[4]&~func[3]& func[2]& func[1]& func[0]; //nor 100111
+   wire i_nor  = r_type& func[5]&~func[4]&~func[3]& func[2]& func[1]& func[0]; //nor 100111
    wire i_sll  = r_type&~func[5]&~func[4]&~func[3]&~func[2]&~func[1]&~func[0]; //sll 000000
    wire i_srl  = r_type&~func[5]&~func[4]&~func[3]&~func[2]& func[1]&~func[0]; //srl 000010
    wire i_sra  = r_type&~func[5]&~func[4]&~func[3]&~func[2]& func[1]& func[0]; //sra 000011
-   // wire i_sllv = r_type&~func[5]&~func[4]&~func[3]& func[2]&~func[1]&~func[0]; //sllv 000100
-   // wire i_srlv = r_type&~func[5]&~func[4]&~func[3]& func[2]& func[1]&~func[0]; //srlv 000110
+   wire i_sllv = r_type&~func[5]&~func[4]&~func[3]& func[2]&~func[1]&~func[0]; //sllv 000100
+   wire i_srlv = r_type&~func[5]&~func[4]&~func[3]& func[2]& func[1]&~func[0]; //srlv 000110
   // i format
    wire i_addi = ~op[5]&~op[4]& op[3]&~op[2]&~op[1]&~op[0]; // addi
    wire i_ori  = ~op[5]&~op[4]& op[3]& op[2]&~op[1]& op[0]; // ori
@@ -69,7 +69,7 @@ module pipeidcu (mwreg, mrn, ern, ewreg, em2reg, mm2reg, rsrtequ, func, op, rs, 
 
 	wire i_rs = i_add | i_sub | i_and | i_or | i_xor | i_jr | i_addi | i_andi | i_ori | i_xori | i_lw | i_sw | i_beq | i_bne;
 
-	wire i_rt = i_add | i_sub | i_and | i_or | i_xor | i_sll | i_srl | i_sra | i_sw | i_beq | i_bne;
+	wire i_rt = i_add | i_sub | i_and | i_or | i_xor | i_sll | i_sllv | i_srl | i_srlv | i_sra | i_sw | i_beq | i_bne | i_nor | i_slt;
 
 
 	assign nostall = ~(ewreg & em2reg & (ern != 0) & (i_rs & (ern == rs) | i_rt & (ern == rt)));
@@ -106,19 +106,19 @@ module pipeidcu (mwreg, mrn, ern, ewreg, em2reg, mm2reg, rsrtequ, func, op, rs, 
 	end
 end
 
-	assign wreg = (i_add | i_sub | i_and | i_or | i_xor | i_sll | i_srl | i_sra | i_addi | i_andi | i_ori | i_xori | i_lw | i_lw | i_lui | i_jal) & nostall;
+	assign wreg = (i_add | i_sub | i_and | i_or | i_xor | i_sll | i_sllv | i_srlv | i_nor | i_slt| i_srl | i_sra | i_addi | i_andi | i_ori | i_xori | i_lw | i_lw | i_lui | i_jal) & nostall;
 	
 	assign regrt = i_addi | i_andi | i_ori | i_xori | i_lw | i_lui;
 
 	assign jal = i_jal;	
 	assign m2reg = i_lw;
-	assign shift = i_sll | i_srl | i_sra;
-	assign aluimm = i_addi | i_lw | i_sw | i_beq | i_bne;
+	assign shift = i_sll | i_srl | i_sra ;
+	assign aluimm = i_addi | i_lw | i_sw | i_beq | i_bne | i_lui | i_ori | i_andi;
 	assign sext = i_addi | i_lw | i_sw | i_beq | i_bne;
-    assign aluc[0] = i_add | i_lw | i_sw | i_addi | i_and   | i_srl  |i_lui | i_andi;
-    assign aluc[1] = i_sub | i_beq | i_and | i_bne | i_sra  | i_andi;
-    assign aluc[2] = i_or | i_ori   | i_lui;
-    assign aluc[3] = i_sll | i_sra | i_srl | i_lui;
+    assign aluc[0] = i_add | i_lw | i_sw | i_addi | i_and   | i_srl  |i_lui | i_andi | i_sllv | i_nor | i_slt;
+    assign aluc[1] = i_sub | i_beq | i_and | i_bne | i_sra  | i_andi | i_sllv | i_nor;
+    assign aluc[2] = i_or | i_ori   | i_lui | i_srlv | i_nor | i_slt;
+    assign aluc[3] = i_sll | i_sra | i_srl | i_lui | i_sllv | i_srlv;
 
 	assign wmem = i_sw & nostall;
 	assign pcsource[1] = i_jr | i_j | i_jal;
