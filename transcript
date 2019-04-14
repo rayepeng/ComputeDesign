@@ -1,9 +1,13 @@
 # Reading E:/ProgramFiles/modelsim1/modelsim_ase/tcl/vsim/pref.tcl
 # OpenFile D:/Pipe_test/Pipe_test.mpf
 # Loading project Pipe_test
+# Compile of alu.v was successful.
+# Compile of pipeidcu.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of pipeemreg.v was successful.
 vsim -gui work.pipecomp_tb
 # vsim -gui work.pipecomp_tb 
-# Start time: 12:41:02 on Apr 14,2019
+# Start time: 15:08:54 on Apr 14,2019
 # Loading work.pipecomp_tb
 # Loading work.pipecomp
 # Loading work.pipecpu
@@ -25,14 +29,444 @@ vsim -gui work.pipecomp_tb
 # Loading work.dm
 # Loading work.im
 add wave -position insertpoint  \
-sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/cu/i_addi
-add wave -position insertpoint  \
 sim:/pipecomp_tb/U_SCCOMP/clk
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: zz  Hostname: LAPTOP-UBIEP4K5  ProcessID: 13816
+#           Attempting to use alternate WLF file "./wlftv594dr".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftv594dr
 add wave -position insertpoint  \
-sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/alu_a/y
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/alua \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/alub \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/ea \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/ealu \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/ealu0 \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/ealuc \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/ealuimm \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/eb \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/eimm \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/ejal \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/epc4 \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/epc8 \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/ern \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/ern0 \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/eshift \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/sa \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/z
+run 600
 add wave -position insertpoint  \
-sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/alu_b/y
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/clk \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/clrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/ealu \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/eb \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/em2reg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/ern \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/ewmem \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/ewreg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/malu \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/mb \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/mm2reg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/mrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/mwmem \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/mwreg
+restart -f
+run 600
+# GetModuleFileName: 找不到指定的模块。
+# 
+# 
+add wave -position insertpoint  \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/wb_stage/a0 \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/wb_stage/a1 \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/wb_stage/s \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/wb_stage/y
+restart -f
+run 600
+# GetModuleFileName: 找不到指定的模块。
+# 
+# 
+add wave -position insertpoint  \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/clk \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/clrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/malu \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/mm2reg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/mmo \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/mrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/mwreg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/walu \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/wm2reg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/wmo \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/wrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/wwreg
+restart -f
+run 800
+# GetModuleFileName: 找不到指定的模块。
+# 
+# 
+add wave -position insertpoint  \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/clk \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/clrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/d \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/i \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/qa \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/qb \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/register \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/rna \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/rnb \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/we \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/wn
+restart -f
+run 800
+# GetModuleFileName: 找不到指定的模块。
+# 
+# 
+# Break key hit
+quit -sim
+# End time: 15:19:21 on Apr 14,2019, Elapsed time: 0:10:27
+# Errors: 0, Warnings: 0
+# Compile of pipemwreg.v was successful.
+vsim -gui work.pipecomp_tb
+# vsim -gui work.pipecomp_tb 
+# Start time: 15:20:32 on Apr 14,2019
+# Loading work.pipecomp_tb
+# Loading work.pipecomp
+# Loading work.pipecpu
+# Loading work.pipepc
+# Loading work.dffe32
+# Loading work.pipeif
+# Loading work.mux4x32
+# Loading work.pipeir
+# Loading work.pipeid
+# Loading work.pipeidcu
+# Loading work.regfile
+# Loading work.mux2x5
+# Loading work.pipedereg
+# Loading work.pipeexe
+# Loading work.mux2x32
+# Loading work.alu
+# Loading work.pipeemreg
+# Loading work.pipemwreg
+# Loading work.dm
+# Loading work.im
+add wave -position insertpoint  \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/clk \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/clrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/ealu \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/eb \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/em2reg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/ern \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/ewmem \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/ewreg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/malu \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/mb \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/mm2reg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/mrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/mwmem \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/mwreg
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: zz  Hostname: LAPTOP-UBIEP4K5  ProcessID: 13816
+#           Attempting to use alternate WLF file "./wlfttcds8a".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfttcds8a
+run 800
+add wave -position insertpoint  \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/clk \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/clrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/malu \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/mm2reg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/mmo \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/mrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/mwreg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/walu \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/wm2reg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/wmo \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/wrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/wwreg
 run 400
 quit -sim
-# End time: 12:45:55 on Apr 14,2019, Elapsed time: 0:04:53
+# End time: 15:33:30 on Apr 14,2019, Elapsed time: 0:12:58
+# Errors: 0, Warnings: 2
+# Compile of pipecpu.v was successful.
+vsim -gui work.pipecomp_tb
+# vsim -gui work.pipecomp_tb 
+# Start time: 15:41:43 on Apr 14,2019
+# Loading work.pipecomp_tb
+# Loading work.pipecomp
+# Loading work.pipecpu
+# Loading work.pipepc
+# Loading work.dffe32
+# Loading work.pipeif
+# Loading work.mux4x32
+# Loading work.pipeir
+# Loading work.pipeid
+# Loading work.pipeidcu
+# Loading work.regfile
+# Loading work.mux2x5
+# Loading work.pipedereg
+# Loading work.pipeexe
+# Loading work.mux2x32
+# Loading work.alu
+# Loading work.pipeemreg
+# Loading work.pipemwreg
+# Loading work.dm
+# Loading work.im
+# ** Warning: (vsim-3015) D:/Pipe_test/pipecpu.v(209): [PCDPC] - Port size (32) does not match connection size (1) for port 'malu'. The port definition is at: D:/Pipe_test/pipemwreg.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg File: D:/Pipe_test/pipemwreg.v
+add wave -position insertpoint  \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/alua \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/alub \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/ea \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/ealu \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/ealu0 \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/ealuc \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/ealuimm \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/eb \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/eimm \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/ejal \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/epc4 \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/epc8 \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/ern \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/ern0 \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/eshift \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/sa \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/z
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: zz  Hostname: LAPTOP-UBIEP4K5  ProcessID: 13816
+#           Attempting to use alternate WLF file "./wlft1hfief".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft1hfief
+add wave -position insertpoint  \
+sim:/pipecomp_tb/U_SCCOMP/clk
+run 400
+add wave -position insertpoint  \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/wb_stage/a0 \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/wb_stage/a1 \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/wb_stage/s \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/wb_stage/y
+restart -f
+# ** Warning: (vsim-3015) D:/Pipe_test/pipecpu.v(209): [PCDPC] - Port size (32) does not match connection size (1) for port 'malu'. The port definition is at: D:/Pipe_test/pipemwreg.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg File: D:/Pipe_test/pipemwreg.v
+run 400
+# GetModuleFileName: 找不到指定的模块。
+# 
+# 
+add wave -position insertpoint  \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/clk \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/clrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/malu \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/mm2reg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/mmo \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/mrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/mwreg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/walu \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/wm2reg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/wmo \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/wrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/wwreg
+restart -f
+# ** Warning: (vsim-3015) D:/Pipe_test/pipecpu.v(209): [PCDPC] - Port size (32) does not match connection size (1) for port 'malu'. The port definition is at: D:/Pipe_test/pipemwreg.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg File: D:/Pipe_test/pipemwreg.v
+run 400
+# GetModuleFileName: 找不到指定的模块。
+# 
+# 
+add wave -position insertpoint  \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/clk \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/clrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/ealu \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/eb \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/em2reg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/ern \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/ewmem \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/ewreg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/malu \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/mb \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/mm2reg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/mrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/mwmem \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/mwreg
+restart -f
+# ** Warning: (vsim-3015) D:/Pipe_test/pipecpu.v(209): [PCDPC] - Port size (32) does not match connection size (1) for port 'malu'. The port definition is at: D:/Pipe_test/pipemwreg.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg File: D:/Pipe_test/pipemwreg.v
+run 500
+# GetModuleFileName: 找不到指定的模块。
+# 
+# 
+quit -sim
+# End time: 15:47:46 on Apr 14,2019, Elapsed time: 0:06:03
 # Errors: 0, Warnings: 0
+# Compile of pipecpu.v was successful.
+vsim -gui work.pipecomp_tb
+# vsim -gui work.pipecomp_tb 
+# Start time: 15:47:55 on Apr 14,2019
+# Loading work.pipecomp_tb
+# Loading work.pipecomp
+# Loading work.pipecpu
+# Loading work.pipepc
+# Loading work.dffe32
+# Loading work.pipeif
+# Loading work.mux4x32
+# Loading work.pipeir
+# Loading work.pipeid
+# Loading work.pipeidcu
+# Loading work.regfile
+# Loading work.mux2x5
+# Loading work.pipedereg
+# Loading work.pipeexe
+# Loading work.mux2x32
+# Loading work.alu
+# Loading work.pipeemreg
+# Loading work.pipemwreg
+# Loading work.dm
+# Loading work.im
+add wave -position insertpoint  \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/clk \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/clrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/ealu \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/eb \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/em2reg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/ern \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/ewmem \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/ewreg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/malu \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/mb \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/mm2reg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/mrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/mwmem \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/em_reg/mwreg
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: zz  Hostname: LAPTOP-UBIEP4K5  ProcessID: 13816
+#           Attempting to use alternate WLF file "./wlftsrnry4".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftsrnry4
+add wave -position insertpoint  \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/clk \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/clrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/malu \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/mm2reg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/mmo \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/mrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/mwreg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/walu \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/wm2reg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/wmo \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/wrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/wwreg
+run 400
+add wave -position insertpoint  \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/wb_stage/a0 \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/wb_stage/a1 \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/wb_stage/s \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/wb_stage/y
+restart -f
+run 400
+# GetModuleFileName: 找不到指定的模块。
+# 
+# 
+add wave -position insertpoint  \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/clk \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/clrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/malu \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/mm2reg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/mmo \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/mrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/mwreg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/walu \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/wm2reg \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/wmo \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/wrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/mw_reg/wwreg
+restart -f
+run 400
+# GetModuleFileName: 找不到指定的模块。
+# 
+# 
+run 100
+add wave -position insertpoint  \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/wb_stage/a0 \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/wb_stage/a1 \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/wb_stage/s \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/wb_stage/y
+restart -f
+run 600
+# GetModuleFileName: 找不到指定的模块。
+# 
+# 
+add wave -position insertpoint  \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/clk \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/clrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/d \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/i \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/qa \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/qb \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/register \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/rna \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/rnb \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/we \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/wn
+restart -f
+run 800
+# GetModuleFileName: 找不到指定的模块。
+# 
+# 
+quit -sim
+# End time: 15:52:29 on Apr 14,2019, Elapsed time: 0:04:34
+# Errors: 0, Warnings: 0
+# Compile of regfile.v was successful.
+vsim -gui work.pipecomp_tb
+# vsim -gui work.pipecomp_tb 
+# Start time: 15:52:39 on Apr 14,2019
+# Loading work.pipecomp_tb
+# Loading work.pipecomp
+# Loading work.pipecpu
+# Loading work.pipepc
+# Loading work.dffe32
+# Loading work.pipeif
+# Loading work.mux4x32
+# Loading work.pipeir
+# Loading work.pipeid
+# Loading work.pipeidcu
+# Loading work.regfile
+# Loading work.mux2x5
+# Loading work.pipedereg
+# Loading work.pipeexe
+# Loading work.mux2x32
+# Loading work.alu
+# Loading work.pipeemreg
+# Loading work.pipemwreg
+# Loading work.dm
+# Loading work.im
+add wave -position insertpoint  \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/clk \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/clrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/d \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/i \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/qa \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/qb \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/register \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/rna \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/rnb \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/we \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/wn
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: zz  Hostname: LAPTOP-UBIEP4K5  ProcessID: 13816
+#           Attempting to use alternate WLF file "./wlftjc13m5".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftjc13m5
+run 800
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/clk \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/clrn \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/d \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/i \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/qa \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/qb \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/register \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/rna \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/rnb \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/we \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/rf/wn
+run 800
+quit -sim
+# End time: 16:03:12 on Apr 14,2019, Elapsed time: 0:10:33
+# Errors: 0, Warnings: 3

@@ -14,8 +14,8 @@ module pipeemreg(ewreg, em2reg, ewmem, ealu, eb, ern, clk, clrn, mwreg,
 	reg [4:0]     mrn;
 	reg           mwreg, mm2reg, mwmem;
 
-	always @(negedge clrn or posedge clk) begin
-		if (clrn == 0)begin
+	always @(posedge clrn or posedge clk) begin
+		if (clrn)begin
 			mwreg <= 0;
 			mm2reg <= 0;
 			mwmem <= 0;

@@ -192,7 +192,7 @@ module pipecpu(clk, rst, instr, readdata, PC, MemWrite, aluout, writedata, reg_s
             .em2reg(em2reg),
             .ewmem(ewmem),
             .ealu(ealu),
-            .eb(eb),
+            .eb(eb),                   //eb->mb  要存储的寄存器数据
             .ern(ern),
             .clk(clk),
             .clrn(rst),
@@ -207,25 +207,25 @@ module pipecpu(clk, rst, instr, readdata, PC, MemWrite, aluout, writedata, reg_s
 
 
       pipemwreg mw_reg(
-            .mwreg(mwreg),
-            .mm2reg(mm2reg),
+            .mwreg(mwreg),             //Mem阶段 写寄存器信号
+            .mm2reg(mm2reg),           //Mem 传送到 reg的信号
             .mmo(readdata),            //注意！！ 此处的readdata 即为从存储器中读出的数据
-            .malu(aluout),             //注意！！ 此处的aluout即为写存储器地址
-            .mrn(mrn),
+            .malu(aluout),      //注意！！ 此处的aluout即为写存储器地址 ?? //malu 就是alu计算的值
+            .mrn(mrn),               //rt or rd寄存器
             .clk(clk),
             .clrn(rst),
-            .wwreg(wwreg),
-            .wm2reg(wm2reg),
-            .wmo(wmo),
-            .walu(walu),
-            .wrn(wrn)
+            .wwreg(wwreg),       //写寄存器信号
+            .wm2reg(wm2reg),     //
+            .wmo(wmo),           // 从存储器中读出来的数据， readdata过来的
+            .walu(walu),         // malu->walu
+            .wrn(wrn)            //mrn->wrn   写寄存器信号
          );
 
 
       mux2x32 wb_stage(
             .a0(walu),
             .a1(wmo),
-            .s(wm2reg),
+            .s(wm2reg),          // 存储器到寄存器信号
             .y(wdi)
          ); 
 

@@ -14,8 +14,8 @@ module pipemwreg(mwreg, mm2reg, mmo, malu, mrn, clk, clrn,
 	reg [4:0]  wrn;
 	reg        wwreg, wm2reg;
 
-	always @(negedge clrn or posedge clk) begin
-		if (clrn == 0) begin
+	always @(posedge clrn or posedge clk) begin
+		if (clrn) begin
 			wwreg <= 0;
 			wm2reg <= 0;
 			wmo <= 0;
