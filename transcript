@@ -1,77 +1,9 @@
 # Reading E:/ProgramFiles/modelsim1/modelsim_ase/tcl/vsim/pref.tcl
 # OpenFile D:/Pipe_test/Pipe_test.mpf
 # Loading project Pipe_test
-# Compile of regfile.v failed with 2 errors.
-# Compile of regfile.v was successful.
-# Compile of pipeid.v failed with 1 errors.
-# Compile of pipeid.v was successful.
-# Compile of pipedereg.v failed with 2 errors.
-# Compile of pipedereg.v failed with 2 errors.
-# Compile of pipedereg.v failed with 1 errors.
-# Compile of pipedereg.v failed with 1 errors.
-# Compile of pipedereg.v was successful.
-# Compile of pipecpu.v failed with 1 errors.
-# Compile of pipecpu.v was successful.
-# Compile of pipeidcu.v failed with 10 errors.
-# Compile of pipeidcu.v failed with 3 errors.
-# Compile of pipeidcu.v failed with 2 errors.
-# Compile of pipeidcu.v was successful.
-# Compile of addsub32.v was successful.
-# Compile of alu.v was successful.
-# Compile of cla32.v was successful.
-# Compile of dffe32.v was successful.
-# Compile of dm.v was successful.
-# Compile of im.v was successful.
-# Compile of mux4x32.v was successful.
-# Compile of pipecomp.v was successful.
-# Compile of pipecomp_tb.v was successful.
-# Compile of pipecpu.v was successful.
-# Compile of pipedereg.v was successful.
-# Compile of pipeemreg.v was successful.
-# Compile of pipeexe.v was successful.
-# Compile of pipeid.v was successful.
-# Compile of pipeidcu.v was successful.
-# Compile of pipeif.v was successful.
-# Compile of pipeir.v was successful.
-# Compile of pipemwreg.v was successful.
-# Compile of pipepc.v was successful.
-# Compile of regfile.v was successful.
-# 20 compiles, 0 failed with no errors.
 vsim -gui work.pipecomp_tb
 # vsim -gui work.pipecomp_tb 
-# Start time: 14:32:17 on Apr 13,2019
-# Loading work.pipecomp_tb
-# ** Error: (vsim-3033) D:/Pipe_test/pipecomp_tb.v(10): Instantiation of 'sccomp' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb File: D:/Pipe_test/pipecomp_tb.v
-#         Searched libraries:
-#             D:/Pipe_test/work
-# Error loading design
-# End time: 14:32:18 on Apr 13,2019, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 0
-# Compile of addsub32.v was successful.
-# Compile of alu.v was successful.
-# Compile of cla32.v was successful.
-# Compile of dffe32.v was successful.
-# Compile of dm.v was successful.
-# Compile of im.v was successful.
-# Compile of mux4x32.v was successful.
-# Compile of pipecomp.v was successful.
-# Compile of pipecomp_tb.v was successful.
-# Compile of pipecpu.v was successful.
-# Compile of pipedereg.v was successful.
-# Compile of pipeemreg.v was successful.
-# Compile of pipeexe.v was successful.
-# Compile of pipeid.v was successful.
-# Compile of pipeidcu.v was successful.
-# Compile of pipeif.v was successful.
-# Compile of pipeir.v was successful.
-# Compile of pipemwreg.v was successful.
-# Compile of pipepc.v was successful.
-# Compile of regfile.v was successful.
-# 20 compiles, 0 failed with no errors.
-vsim -gui work.pipecomp_tb
-# vsim -gui work.pipecomp_tb 
-# Start time: 14:33:06 on Apr 13,2019
+# Start time: 12:41:02 on Apr 14,2019
 # Loading work.pipecomp_tb
 # Loading work.pipecomp
 # Loading work.pipecpu
@@ -79,178 +11,28 @@ vsim -gui work.pipecomp_tb
 # Loading work.dffe32
 # Loading work.pipeif
 # Loading work.mux4x32
-# Loading work.cla32
-# ** Warning: (vsim-3035) Instantiation depth of '/pipecomp_tb/U_SCCOMP/U_PIPECPU/if_stage/pc_plus4/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla' is 51. This might indicate a recursive instantiation. Increasing limit to 75.
-# ** Error: (vsim-3036) Instantiation depth of '/pipecomp_tb/U_SCCOMP/U_PIPECPU/if_stage/pc_plus4/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla' is 75. Assuming recursive instantiation.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/if_stage/pc_plus4/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla File: D:/Pipe_test/cla32.v
-# Loading work.pipeir
-# Loading work.pipeid
-# Loading work.pipeidcu
-# Loading work.regfile
-# ** Error: (vsim-3033) D:/Pipe_test/pipeid.v(37): Instantiation of 'mux2x5' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage File: D:/Pipe_test/pipeid.v
-#         Searched libraries:
-#             D:/Pipe_test/work
-# ** Error: (vsim-3036) Instantiation depth of '/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/br_addr/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla' is 75. Assuming recursive instantiation.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/br_addr/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla File: D:/Pipe_test/cla32.v
-# Loading work.pipedereg
-# Loading work.pipeexe
-# ** Error: (vsim-3036) Instantiation depth of '/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/ret_addr/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla' is 75. Assuming recursive instantiation.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/ret_addr/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla File: D:/Pipe_test/cla32.v
-# ** Error: (vsim-3033) D:/Pipe_test/pipeexe.v(16): Instantiation of 'mux2x32' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage File: D:/Pipe_test/pipeexe.v
-#         Searched libraries:
-#             D:/Pipe_test/work
-# ** Error: (vsim-3033) D:/Pipe_test/pipeexe.v(17): Instantiation of 'mux2x32' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage File: D:/Pipe_test/pipeexe.v
-#         Searched libraries:
-#             D:/Pipe_test/work
-# ** Error: (vsim-3033) D:/Pipe_test/pipeexe.v(18): Instantiation of 'mux2x32' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage File: D:/Pipe_test/pipeexe.v
-#         Searched libraries:
-#             D:/Pipe_test/work
-# Loading work.alu
-# Loading work.addsub32
-# ** Error: (vsim-3036) Instantiation depth of '/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/al_unit/as32/as32/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla' is 75. Assuming recursive instantiation.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/al_unit/as32/as32/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla File: D:/Pipe_test/cla32.v
-# ** Error: (vsim-3033) D:/Pipe_test/alu.v(19): Instantiation of 'shift' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/al_unit File: D:/Pipe_test/alu.v
-#         Searched libraries:
-#             D:/Pipe_test/work
-# Loading work.pipeemreg
-# Loading work.pipemwreg
-# ** Error: (vsim-3033) D:/Pipe_test/pipecpu.v(220): Instantiation of 'mux2x32' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU File: D:/Pipe_test/pipecpu.v
-#         Searched libraries:
-#             D:/Pipe_test/work
-# Loading work.dm
-# Loading work.im
-# Error loading design
-# End time: 14:33:06 on Apr 13,2019, Elapsed time: 0:00:00
-# Errors: 10, Warnings: 1
-# Compile of mux2x32.v was successful.
-vsim -gui work.pipecomp_tb
-# vsim -gui work.pipecomp_tb 
-# Start time: 14:35:07 on Apr 13,2019
-# Loading work.pipecomp_tb
-# Loading work.pipecomp
-# Loading work.pipecpu
-# Loading work.pipepc
-# Loading work.dffe32
-# Loading work.pipeif
-# Loading work.mux4x32
-# Loading work.cla32
-# ** Warning: (vsim-3035) Instantiation depth of '/pipecomp_tb/U_SCCOMP/U_PIPECPU/if_stage/pc_plus4/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla' is 51. This might indicate a recursive instantiation. Increasing limit to 75.
-# ** Error: (vsim-3036) Instantiation depth of '/pipecomp_tb/U_SCCOMP/U_PIPECPU/if_stage/pc_plus4/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla' is 75. Assuming recursive instantiation.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/if_stage/pc_plus4/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla File: D:/Pipe_test/cla32.v
-# Loading work.pipeir
-# Loading work.pipeid
-# Loading work.pipeidcu
-# Loading work.regfile
-# ** Error: (vsim-3033) D:/Pipe_test/pipeid.v(37): Instantiation of 'mux2x5' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage File: D:/Pipe_test/pipeid.v
-#         Searched libraries:
-#             D:/Pipe_test/work
-# ** Error: (vsim-3036) Instantiation depth of '/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/br_addr/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla' is 75. Assuming recursive instantiation.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/br_addr/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla File: D:/Pipe_test/cla32.v
-# Loading work.pipedereg
-# Loading work.pipeexe
-# ** Error: (vsim-3036) Instantiation depth of '/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/ret_addr/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla' is 75. Assuming recursive instantiation.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/ret_addr/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla File: D:/Pipe_test/cla32.v
-# Loading work.mux2x32
-# Loading work.alu
-# Loading work.addsub32
-# ** Error: (vsim-3036) Instantiation depth of '/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/al_unit/as32/as32/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla' is 75. Assuming recursive instantiation.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/al_unit/as32/as32/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla File: D:/Pipe_test/cla32.v
-# ** Error: (vsim-3033) D:/Pipe_test/alu.v(19): Instantiation of 'shift' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/al_unit File: D:/Pipe_test/alu.v
-#         Searched libraries:
-#             D:/Pipe_test/work
-# Loading work.pipeemreg
-# Loading work.pipemwreg
-# Loading work.dm
-# Loading work.im
-# Error loading design
-# End time: 14:35:08 on Apr 13,2019, Elapsed time: 0:00:01
-# Errors: 6, Warnings: 1
-# Compile of mux2x5.v was successful.
-vsim -gui work.pipecomp_tb
-# vsim -gui work.pipecomp_tb 
-# Start time: 14:39:55 on Apr 13,2019
-# Loading work.pipecomp_tb
-# Loading work.pipecomp
-# Loading work.pipecpu
-# Loading work.pipepc
-# Loading work.dffe32
-# Loading work.pipeif
-# Loading work.mux4x32
-# Loading work.cla32
-# ** Warning: (vsim-3035) Instantiation depth of '/pipecomp_tb/U_SCCOMP/U_PIPECPU/if_stage/pc_plus4/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla' is 51. This might indicate a recursive instantiation. Increasing limit to 75.
-# ** Error: (vsim-3036) Instantiation depth of '/pipecomp_tb/U_SCCOMP/U_PIPECPU/if_stage/pc_plus4/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla' is 75. Assuming recursive instantiation.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/if_stage/pc_plus4/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla File: D:/Pipe_test/cla32.v
 # Loading work.pipeir
 # Loading work.pipeid
 # Loading work.pipeidcu
 # Loading work.regfile
 # Loading work.mux2x5
-# ** Error: (vsim-3036) Instantiation depth of '/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/br_addr/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla' is 75. Assuming recursive instantiation.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/br_addr/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla File: D:/Pipe_test/cla32.v
 # Loading work.pipedereg
 # Loading work.pipeexe
-# ** Error: (vsim-3036) Instantiation depth of '/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/ret_addr/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla' is 75. Assuming recursive instantiation.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/ret_addr/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla File: D:/Pipe_test/cla32.v
 # Loading work.mux2x32
 # Loading work.alu
-# Loading work.addsub32
-# ** Error: (vsim-3036) Instantiation depth of '/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/al_unit/as32/as32/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla' is 75. Assuming recursive instantiation.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/al_unit/as32/as32/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla File: D:/Pipe_test/cla32.v
-# ** Error: (vsim-3033) D:/Pipe_test/alu.v(19): Instantiation of 'shift' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/al_unit File: D:/Pipe_test/alu.v
-#         Searched libraries:
-#             D:/Pipe_test/work
 # Loading work.pipeemreg
 # Loading work.pipemwreg
 # Loading work.dm
 # Loading work.im
-# Error loading design
-# End time: 14:39:55 on Apr 13,2019, Elapsed time: 0:00:00
-# Errors: 5, Warnings: 1
-# Compile of shift.v was successful.
-vsim -gui work.pipecomp_tb
-# vsim -gui work.pipecomp_tb 
-# Start time: 14:43:54 on Apr 13,2019
-# Loading work.pipecomp_tb
-# Loading work.pipecomp
-# Loading work.pipecpu
-# Loading work.pipepc
-# Loading work.dffe32
-# Loading work.pipeif
-# Loading work.mux4x32
-# Loading work.cla32
-# ** Warning: (vsim-3035) Instantiation depth of '/pipecomp_tb/U_SCCOMP/U_PIPECPU/if_stage/pc_plus4/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla' is 51. This might indicate a recursive instantiation. Increasing limit to 75.
-# ** Error: (vsim-3036) Instantiation depth of '/pipecomp_tb/U_SCCOMP/U_PIPECPU/if_stage/pc_plus4/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla' is 75. Assuming recursive instantiation.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/if_stage/pc_plus4/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla File: D:/Pipe_test/cla32.v
-# Loading work.pipeir
-# Loading work.pipeid
-# Loading work.pipeidcu
-# Loading work.regfile
-# Loading work.mux2x5
-# ** Error: (vsim-3036) Instantiation depth of '/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/br_addr/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla' is 75. Assuming recursive instantiation.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/br_addr/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla File: D:/Pipe_test/cla32.v
-# Loading work.pipedereg
-# Loading work.pipeexe
-# ** Error: (vsim-3036) Instantiation depth of '/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/ret_addr/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla' is 75. Assuming recursive instantiation.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/ret_addr/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla File: D:/Pipe_test/cla32.v
-# Loading work.mux2x32
-# Loading work.alu
-# Loading work.addsub32
-# ** Error: (vsim-3036) Instantiation depth of '/pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/al_unit/as32/as32/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla' is 75. Assuming recursive instantiation.
-#    Time: 0 ps  Iteration: 0  Instance: /pipecomp_tb/U_SCCOMP/U_PIPECPU/exe_stage/al_unit/as32/as32/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla/cla File: D:/Pipe_test/cla32.v
-# Loading work.shift
-# Loading work.pipeemreg
-# Loading work.pipemwreg
-# Loading work.dm
-# Loading work.im
-# Error loading design
-# End time: 14:43:55 on Apr 13,2019, Elapsed time: 0:00:01
-# Errors: 4, Warnings: 1
+add wave -position insertpoint  \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/cu/i_addi
+add wave -position insertpoint  \
+sim:/pipecomp_tb/U_SCCOMP/clk
+add wave -position insertpoint  \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/alu_a/y
+add wave -position insertpoint  \
+sim:/pipecomp_tb/U_SCCOMP/U_PIPECPU/id_stage/alu_b/y
+run 400
+quit -sim
+# End time: 12:45:55 on Apr 14,2019, Elapsed time: 0:04:53
+# Errors: 0, Warnings: 0

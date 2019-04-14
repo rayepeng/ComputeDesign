@@ -49,7 +49,8 @@ clrn, bpc, jpc, pcsource, nostall, wreg, m2reg, wmem, aluc, aluimm, a,b,imm, rn,
 
 	assign br_offset = {imm[29:0], 2'b00};
 
-	cla32 br_addr(dpc4, br_offset, 1'b0, bpc);   //计算出bpc的值
+	//cla32 br_addr(dpc4, br_offset, 1'b0, bpc);   //计算出bpc的值
+	assign bpc = dpc4 + br_offset;
 endmodule
 
 

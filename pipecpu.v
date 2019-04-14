@@ -51,6 +51,9 @@ module pipecpu(clk, rst, instr, readdata, PC, MemWrite, aluout, writedata, reg_s
    wire [31:0] pc4;
    wire [31:0] dinst;
 
+   wire [31:0]  walu;
+   
+   wire [31:0] ealu;
    wire dwreg, dm2reg, dwmem, daluimm, dshift, djal;
    wire ewreg, em2reg, ewmem, ealuimm, eshift, ejal;
    wire mwreg, mm2reg, mwmem;
@@ -65,7 +68,7 @@ module pipecpu(clk, rst, instr, readdata, PC, MemWrite, aluout, writedata, reg_s
    pc和npc之间
    输入npc, wpcir, 得到pc的值作为整体的输出
     */
-   pipepc prog_cnt(
+   pipepc prog_cnt(  
    				.npc(npc),               //input: npc
    				.wpc(wpcir),             //input: 写pc信号
    				.clk(clk),              
@@ -156,12 +159,14 @@ module pipecpu(clk, rst, instr, readdata, PC, MemWrite, aluout, writedata, reg_s
             .clk(clk),
             .clrn(rst),
             .ewreg(ewreg),
+            .em2reg(em2reg),
             .ewmem(ewmem),
             .ealuc(ealuc),
             .ealuimm(ealuimm),
             .ea(ea),
             .eb(eb),
             .eimm(eimm),
+            .ern(ern0),
             .eshift(eshift),
             .ejal(ejal),
             .epc4(epc4)
@@ -218,10 +223,10 @@ module pipecpu(clk, rst, instr, readdata, PC, MemWrite, aluout, writedata, reg_s
 
 
       mux2x32 wb_stage(
-            .walu(walu),
-            .wmo(wmo),
-            .wm2reg(wm2reg),
-            .wdi(wdi)
+            .a0(walu),
+            .a1(wmo),
+            .s(wm2reg),
+            .y(wdi)
          ); 
 
 

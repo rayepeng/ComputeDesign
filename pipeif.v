@@ -7,8 +7,10 @@ module pipeif(pcsource, ins, pc, bpc, rpc, jpc, npc, pc4, inst);
 
 	output [31:0] npc, pc4, inst;    //输出下一条PC,pc4, inst
 
+	assign pc4 = pc + 4;
+	assign inst = ins;              //指令就直接赋值了
 	mux4x32 next_pc(pc4, bpc, rpc, jpc, pcsource, npc);
 
-	cla32 pc_plus4(pc, 32'h4, 1'b0, pc4);
-	assign inst = ins;              //指令就直接赋值了
+	//cla32 pc_plus4(pc, 32'h4, 1'b0, pc4);
+	
 endmodule

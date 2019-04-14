@@ -12,8 +12,10 @@ module pipeexe(ealuc, ealuimm, ea, eb, eimm, eshift, ern0, epc4, ejal, ern, ealu
 	wire z;
 	assign sa = {eimm[5:0], eimm[31:6]};           //计算得出移位的数量shamt
 
-	cla32 ret_addr(epc4, 32'h4, 1'b0, epc8);       //这里使用的是pc+8， 也就是分支延迟槽?
+	//cla32 ret_addr(epc4, 32'h4, 1'b0, epc8);       //这里使用的是pc+8， 也就是分支延迟槽?
+	assign epc8 = epc4 + 4;
 	mux2x32 alu_ina(ea, sa, eshift, alua);         //选择ALU的a输入端
+
 	mux2x32 alu_inb(eb, eimm, ealuimm, alub);      //选择ALU的b输入端
 	mux2x32 save_pc8(ealu0, epc8, ejal, ealu);
 

@@ -9,7 +9,7 @@ z2
 cModel Technology
 dH:/workspace/modelsim/EDA_examples
 vaddsub32
-Z0 !s110 1555137178
+Z0 !s110 1555138527
 !i10b 1
 !s100 a8fQoP1gmUbdDcDeji6nX2
 INdf1==9WV5HLSgEG;g?am0
@@ -23,30 +23,30 @@ Z3 OV;L;10.6d;65
 r1
 !s85 0
 31
-Z4 !s108 1555137178.000000
+Z4 !s108 1555138527.000000
 !s107 D:\Pipe_test\addsub32.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:\Pipe_test\addsub32.v|
 !i113 1
 Z5 o-work work
 Z6 tCvgOpt 0
 valu
-R0
+Z7 !s110 1555225055
 !i10b 1
-!s100 z4@J_>FHc;RAAK]oNdfjO1
-I?59EOWIjjV=;fLoW6IY@R1
+!s100 <Ooi4PcW;]8<^@b6ngjHR2
+IO]g1Jn_=580Zk=nzZ=Km91
 R1
 R2
-w1554634147
-8D:\Pipe_test\alu.v
-FD:\Pipe_test\alu.v
-L0 1
+w1555224679
+8D:/Pipe_test/alu.v
+FD:/Pipe_test/alu.v
+L0 2
 R3
 r1
 !s85 0
 31
-R4
-!s107 D:\Pipe_test\alu.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:\Pipe_test\alu.v|
+!s108 1555225054.000000
+!s107 ctrl_encode_def.v|D:/Pipe_test/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Pipe_test/alu.v|
 !i113 1
 R5
 R6
@@ -72,70 +72,91 @@ R4
 R5
 R6
 vdffe32
-Z7 !s110 1555137179
+!s110 1555216568
 !i10b 1
-!s100 6QY<nUebXRXmUz39dFJmN1
-Im4R]GM=`6[?FzZgD[I[QP2
+!s100 6QPCnFc>zH[Sn]^eF@V7K3
+ITb18GYlLZNnfnXKN2]>fd0
 R1
 R2
-w1554633635
-8D:\Pipe_test\dffe32.v
-FD:\Pipe_test\dffe32.v
+w1555216558
+8D:/Pipe_test/dffe32.v
+FD:/Pipe_test/dffe32.v
 L0 1
 R3
 r1
 !s85 0
 31
-Z8 !s108 1555137179.000000
-!s107 D:\Pipe_test\dffe32.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:\Pipe_test\dffe32.v|
+!s108 1555216568.000000
+!s107 D:/Pipe_test/dffe32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Pipe_test/dffe32.v|
+!i113 1
+R5
+R6
+vdffe32_tb
+!s110 1555158163
+!i10b 1
+!s100 SeY2_M3]`8A06e[:S;CVE1
+IdC1M?]RTUeNVMCP8B[H6:3
+R1
+R2
+w1555158154
+8D:/Pipe_test/dffe32_tb.v
+FD:/Pipe_test/dffe32_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1555158163.000000
+!s107 D:/Pipe_test/dffe32_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Pipe_test/dffe32_tb.v|
 !i113 1
 R5
 R6
 vdm
-R7
+Z8 !s110 1555157473
 !i10b 1
 !s100 9c4JAl_]h[d[U?>VPcOY]1
-IaJc37e5:;iSnUCgFTAIPa3
+ILEYWAJ8M^e79lmNPOD9Z:1
 R1
 R2
 w1555135220
-8D:\Pipe_test\dm.v
-FD:\Pipe_test\dm.v
+8D:/Pipe_test/dm.v
+FD:/Pipe_test/dm.v
 L0 3
 R3
 r1
 !s85 0
 31
-R8
-!s107 D:\Pipe_test\dm.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:\Pipe_test\dm.v|
+Z9 !s108 1555157473.000000
+!s107 D:/Pipe_test/dm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Pipe_test/dm.v|
 !i113 1
 R5
 R6
 vim
-R7
+R8
 !i10b 1
 !s100 U;JIL?DAR;UKk>XKgK4W72
-II9THX]iE[PCzj>Hke9J]Y3
+IgR3h@]nUOCPMh>UZd>TAI0
 R1
 R2
 w1555135209
-8D:\Pipe_test\im.v
-FD:\Pipe_test\im.v
+8D:/Pipe_test/im.v
+FD:/Pipe_test/im.v
 L0 3
 R3
 r1
 !s85 0
 31
-R8
-!s107 D:\Pipe_test\im.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:\Pipe_test\im.v|
+R9
+!s107 D:/Pipe_test/im.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Pipe_test/im.v|
 !i113 1
 R5
 R6
 vmux2x32
-!s110 1555137301
+Z10 !s110 1555157474
 !i10b 1
 !s100 ZNNzTi@SR3i0W6ea:98Mj3
 I=<NF^KcYbOREjV?HECfZ73
@@ -149,14 +170,14 @@ R3
 r1
 !s85 0
 31
-!s108 1555137301.000000
+Z11 !s108 1555157474.000000
 !s107 D:/Pipe_test/mux2x32.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Pipe_test/mux2x32.v|
 !i113 1
 R5
 R6
 vmux2x5
-!s110 1555137588
+Z12 !s110 1555157475
 !i10b 1
 !s100 PjSZM<S3]`RX]X4R0c[8S0
 IeAS=HJ1^VXe:Z_VC`:Eg83
@@ -170,308 +191,308 @@ R3
 r1
 !s85 0
 31
-!s108 1555137588.000000
+R11
 !s107 D:/Pipe_test/mux2x5.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Pipe_test/mux2x5.v|
 !i113 1
 R5
 R6
 vmux4x32
-R7
+R8
 !i10b 1
 !s100 TUeF8J@YEO9e0fI8[R49m1
-I30fBjelV_K9iXVIOU]Mdg3
+I_omBfI_`Enm3gNcc>@IM`2
 R1
 R2
 w1554634566
-8D:\Pipe_test\mux4x32.v
-FD:\Pipe_test\mux4x32.v
+8D:/Pipe_test/mux4x32.v
+FD:/Pipe_test/mux4x32.v
 L0 1
 R3
 r1
 !s85 0
 31
-R8
-!s107 D:\Pipe_test\mux4x32.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:\Pipe_test\mux4x32.v|
+R9
+!s107 D:/Pipe_test/mux4x32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Pipe_test/mux4x32.v|
 !i113 1
 R5
 R6
 vpipecomp
-R7
+R8
 !i10b 1
 !s100 EH1b:z;B9<zZMeZ>@D2@S3
-IV2m6>f6Z2CC1zbfj7ooRH0
+I^W6FaHz1=hC1kGOBk>Lkm2
 R1
 R2
 w1555135351
-8D:\Pipe_test\pipecomp.v
-FD:\Pipe_test\pipecomp.v
+8D:/Pipe_test/pipecomp.v
+FD:/Pipe_test/pipecomp.v
 L0 1
 R3
 r1
 !s85 0
 31
-R8
-!s107 D:\Pipe_test\pipecomp.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:\Pipe_test\pipecomp.v|
+R9
+!s107 D:/Pipe_test/pipecomp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Pipe_test/pipecomp.v|
 !i113 1
 R5
 R6
 vpipecomp_tb
-R7
+!s110 1555215830
 !i10b 1
 !s100 ]id4b7UHn`H4C=Zj:JXWe2
-IoYVFaC]91S7@nbn?oPo[M3
+IP]czmm991R5n7c=V_>bBh3
 R1
 R2
-w1555137175
-8D:\Pipe_test\pipecomp_tb.v
-FD:\Pipe_test\pipecomp_tb.v
+w1555215737
+8D:/Pipe_test/pipecomp_tb.v
+FD:/Pipe_test/pipecomp_tb.v
 L0 3
 R3
 r1
 !s85 0
 31
-R8
-!s107 D:\Pipe_test\pipecomp_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:\Pipe_test\pipecomp_tb.v|
+!s108 1555215830.000000
+!s107 D:/Pipe_test/pipecomp_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Pipe_test/pipecomp_tb.v|
 !i113 1
 R5
 R6
 vpipecpu
-R7
+R8
 !i10b 1
-!s100 @Aa_hdM[i0XczPLU<5Yke3
-ILi2Zann]?h822kl?M=d3?1
+!s100 72kRo^JE_14i6OYe2KEld2
+I?m;58SiBX7]^U@EGUc_O?2
 R1
 R2
-w1555136755
-8D:\Pipe_test\pipecpu.v
-FD:\Pipe_test\pipecpu.v
+w1555156904
+8D:/Pipe_test/pipecpu.v
+FD:/Pipe_test/pipecpu.v
 L0 1
 R3
 r1
 !s85 0
 31
-R8
-!s107 D:\Pipe_test\pipecpu.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:\Pipe_test\pipecpu.v|
+R9
+!s107 D:/Pipe_test/pipecpu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Pipe_test/pipecpu.v|
 !i113 1
 R5
 R6
 vpipedereg
-R7
+!s110 1555224244
 !i10b 1
-!s100 8<76PM=6;0J7g<U4[Cfdd1
-I_6XFN4UfCL1b7E<hFMlnz3
+!s100 bBW;MzOIUZZK50f01@MPG3
+ID4PNIgJCTXkAT6nLm<YN@3
 R1
 R2
-w1555136730
-8D:\Pipe_test\pipedereg.v
-FD:\Pipe_test\pipedereg.v
+w1555224170
+8D:/Pipe_test/pipedereg.v
+FD:/Pipe_test/pipedereg.v
 L0 1
 R3
 r1
 !s85 0
 31
-R8
-!s107 D:\Pipe_test\pipedereg.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:\Pipe_test\pipedereg.v|
+!s108 1555224244.000000
+!s107 D:/Pipe_test/pipedereg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Pipe_test/pipedereg.v|
 !i113 1
 R5
 R6
 vpipeemreg
-R7
+R10
 !i10b 1
 !s100 YJd=RlG5]1=1BfV6I9fMV3
-I3:g:S>e2]dfoCSDATAI_@0
+IoK<AT2I^8a1mC]J7b:BaX1
 R1
 R2
 w1555119140
-8D:\Pipe_test\pipeemreg.v
-FD:\Pipe_test\pipeemreg.v
+8D:/Pipe_test/pipeemreg.v
+FD:/Pipe_test/pipeemreg.v
 L0 1
 R3
 r1
 !s85 0
 31
-R8
-!s107 D:\Pipe_test\pipeemreg.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:\Pipe_test\pipeemreg.v|
+R9
+!s107 D:/Pipe_test/pipeemreg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Pipe_test/pipeemreg.v|
 !i113 1
 R5
 R6
 vpipeexe
-R7
+R10
 !i10b 1
-!s100 ;<5MBMoij7az7VDC[jng13
-IRd1YP0gMKMJkRLaa_4<f03
+!s100 1ZadIa<z@?RM:?zQH48=R1
+Ii;MoQc1;Em^;=AA<9b2`=2
 R1
 R2
-w1554631781
-8D:\Pipe_test\pipeexe.v
-FD:\Pipe_test\pipeexe.v
+w1555138447
+8D:/Pipe_test/pipeexe.v
+FD:/Pipe_test/pipeexe.v
 L0 1
 R3
 r1
 !s85 0
 31
-R8
-!s107 D:\Pipe_test\pipeexe.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:\Pipe_test\pipeexe.v|
+R11
+!s107 D:/Pipe_test/pipeexe.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Pipe_test/pipeexe.v|
 !i113 1
 R5
 R6
 vpipeid
-Z9 !s110 1555137180
+R10
 !i10b 1
-!s100 H@UUKGLJiRUH8@4nYlh?@0
-Ihc^4SeYD`@iK[N;CPTAPb1
+!s100 ?B`VHajn9Ho2b6FdH8nAj2
+IJdRk2K>Lm=mUIR^LGz37P3
 R1
 R2
-w1555136558
-8D:\Pipe_test\pipeid.v
-FD:\Pipe_test\pipeid.v
+w1555138474
+8D:/Pipe_test/pipeid.v
+FD:/Pipe_test/pipeid.v
 L0 1
 R3
 r1
 !s85 0
 31
-R8
-!s107 D:\Pipe_test\pipeid.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:\Pipe_test\pipeid.v|
+R11
+!s107 D:/Pipe_test/pipeid.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Pipe_test/pipeid.v|
 !i113 1
 R5
 R6
 vpipeidcu
-R9
+R7
 !i10b 1
-!s100 >TjG:@dECB9ooM;R_gS7o1
-ImL6oZbVAn:9?dj0>W5^I[0
+!s100 XQi8Pg<VicKefm0AF9Pgm1
+I>AlcPUVTlY1fW^[;l^lgM2
 R1
 R2
-w1555137080
-8D:\Pipe_test\pipeidcu.v
-FD:\Pipe_test\pipeidcu.v
+w1555225046
+8D:/Pipe_test/pipeidcu.v
+FD:/Pipe_test/pipeidcu.v
 L0 1
 R3
 r1
 !s85 0
 31
-Z10 !s108 1555137180.000000
-!s107 D:\Pipe_test\pipeidcu.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:\Pipe_test\pipeidcu.v|
+!s108 1555225055.000000
+!s107 D:/Pipe_test/pipeidcu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Pipe_test/pipeidcu.v|
 !i113 1
 R5
 R6
 vpipeif
-R9
+!s110 1555159006
 !i10b 1
-!s100 GSg;naQzef6:BRX=e9^<;0
-I]5_P@aadY4Yc@1CE17Glm1
+!s100 UV8`b>TTzYl3>_Y0eoj?e1
+I=J1nYCXoA<_8mY:;kIgh=2
 R1
 R2
-w1555117845
-8D:\Pipe_test\pipeif.v
-FD:\Pipe_test\pipeif.v
+w1555158995
+8D:/Pipe_test/pipeif.v
+FD:/Pipe_test/pipeif.v
 L0 1
 R3
 r1
 !s85 0
 31
-R10
-!s107 D:\Pipe_test\pipeif.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:\Pipe_test\pipeif.v|
+!s108 1555159006.000000
+!s107 D:/Pipe_test/pipeif.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Pipe_test/pipeif.v|
 !i113 1
 R5
 R6
 vpipeir
-R9
+R10
 !i10b 1
 !s100 O?XLIX7J=1<@jG?B0SbHN3
-ISIELd1T3e`zz>_SdZC0C=1
+IbeWgXMAPU29i6:2R2oe8F1
 R1
 R2
 w1554604741
-8D:\Pipe_test\pipeir.v
-FD:\Pipe_test\pipeir.v
+8D:/Pipe_test/pipeir.v
+FD:/Pipe_test/pipeir.v
 L0 1
 R3
 r1
 !s85 0
 31
-R10
-!s107 D:\Pipe_test\pipeir.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:\Pipe_test\pipeir.v|
+R11
+!s107 D:/Pipe_test/pipeir.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Pipe_test/pipeir.v|
 !i113 1
 R5
 R6
 vpipemwreg
-R9
+R10
 !i10b 1
 !s100 XBl6<5T>Y<FJcLKo[R<@A2
-I;=Xk:^FdLA`0`CC0<<KR=1
+ICalOjXL8^]GKmHAz3Fzzj2
 R1
 R2
 w1554632408
-8D:\Pipe_test\pipemwreg.v
-FD:\Pipe_test\pipemwreg.v
+8D:/Pipe_test/pipemwreg.v
+FD:/Pipe_test/pipemwreg.v
 L0 1
 R3
 r1
 !s85 0
 31
-R10
-!s107 D:\Pipe_test\pipemwreg.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:\Pipe_test\pipemwreg.v|
+R11
+!s107 D:/Pipe_test/pipemwreg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Pipe_test/pipemwreg.v|
 !i113 1
 R5
 R6
 vpipepc
-R9
+R10
 !i10b 1
 !s100 S33oCk?D@O;[oHDCQZK`b1
-IBTGzD>O?n1NncDQz9[4G=2
+IO0z_>0gI_hB][0<bUY:Vi1
 R1
 R2
 w1554635663
-8D:\Pipe_test\pipepc.v
-FD:\Pipe_test\pipepc.v
+8D:/Pipe_test/pipepc.v
+FD:/Pipe_test/pipepc.v
 L0 1
 R3
 r1
 !s85 0
 31
-R10
-!s107 D:\Pipe_test\pipepc.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:\Pipe_test\pipepc.v|
+R11
+!s107 D:/Pipe_test/pipepc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Pipe_test/pipepc.v|
 !i113 1
 R5
 R6
 vregfile
-R9
+R10
 !i10b 1
 !s100 YnTZIeS2E1HY3GK_L:5Oc2
-I<9DO]P1ejgd9`NQTM9fXU1
+I164K[Beh720_=8eNf1ARf2
 R1
 R2
 w1555136526
-8D:\Pipe_test\regfile.v
-FD:\Pipe_test\regfile.v
+8D:/Pipe_test/regfile.v
+FD:/Pipe_test/regfile.v
 L0 1
 R3
 r1
 !s85 0
 31
-R10
-!s107 D:\Pipe_test\regfile.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:\Pipe_test\regfile.v|
+R11
+!s107 D:/Pipe_test/regfile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Pipe_test/regfile.v|
 !i113 1
 R5
 R6
 vshift
-!s110 1555137827
+R12
 !i10b 1
 !s100 UZY=QXaL9412Ml:ShY6VL0
 I>:1QJaZCQ8X]1==R1UAad0
@@ -485,7 +506,7 @@ R3
 r1
 !s85 0
 31
-!s108 1555137827.000000
+!s108 1555157475.000000
 !s107 D:/Pipe_test/shift.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Pipe_test/shift.v|
 !i113 1

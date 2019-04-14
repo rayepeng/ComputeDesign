@@ -1,26 +1,36 @@
-module alu(a, b, aluc, r, z);
-
-	input [31:0] a, b;
-	input [3:0]  aluc;
-
-	output [31:0] r;
-	output z;
+`include "ctrl_encode_def.v"
+module alu(A, B, ALUOp, C, Zero);
 
 
-	wire [31:0] d_and = a & b;
-	wire [31:0] d_or = a | b;
-	wire [31:0] d_xor = a ^ b;
-	wire [31:0] d_lui = {b[15:0], 16'h0};
-	wire [31:0] d_and_or = aluc[2] ? d_or: d_and;
-	wire [31:0] d_xor_lui = aluc[2] ? d_lui:d_xor;
-	wire [31:0] d_as, d_sh;
-
-	addsub32 as32(a, b, aluc[2], d_as);
-	shift shifter(b, a[4:0], aluc[2], aluc[3], d_sh);
-
-	mux4x32 select(d_as, d_and_or, d_xor_lui, d_sh, aluc[1:0], r);
-
-	assign z = ~|r;
+   input  signed [31:0] A, B;
+   input         [3:0]  ALUOp;
+   output signed [31:0] C;
+   output Zero;
+   
+   reg [31:0] C;
+   integer    i;
+       
+   always @( * ) begin
+      case ( ALUOp )
+          `ALU_NOP:  C = A;                          // NOP
+          `ALU_ADD:  C = A + B;                      // ADD
+          `ALU_SUB:  C = A - B;                      // SUB
+          `ALU_AND:  C = A & B;                      // AND/ANDI
+          `ALU_OR:   C = A | B;                      // OR/ORI
+          `ALU_SLT:  C = (A < B) ? 32'd1 : 32'd0;    // SLT/SLTI
+          `ALU_SLTU: C = ({1'b0, A} < {1'b0, B}) ? 32'd1 : 32'd0;
+		      `ALU_NOR:  C = ~(A | B);
+		      `ALU_SLL:  C = B << A;                     //sll
+		      `ALU_SRL:  C = B >> A;                     //srl
+		      `ALU_SRA:  C = B >>> A;                    //sra
+		      `ALU_SLLV: C = B << A;                     //sllv
+		      `ALU_SRLV: C = B >> A;                     //srlv
+		      `ALU_SLL16: C = B << 16;                   //lui
+          default:   C = A;                          // Undefined
+      endcase
+   end // end always
+   
+   assign Zero = (C == 32'b0);
 
 endmodule
 

@@ -8,8 +8,8 @@ module dffe32(d, clk, clrn, e, q);
 
 	reg [31:0] q;
 
-	always @(posedge clk or negedge clrn) begin
-		if (clrn == 0) begin
+	always @(posedge clk or posedge clrn) begin
+		if (clrn) begin
 				q <= 0;
 		end
 		else begin
