@@ -45,7 +45,7 @@ module pipecpu(clk, rst, instr, readdata, PC, MemWrite, aluout, writedata, reg_s
 
    wire [1:0] pcsource;     //选择NPC
    wire [31:0] bpc;
-   wire [31:0] rpc;
+   //wire [31:0] rpc;
    wire [31:0] jpc;
    wire [31:0] npc;
    wire [31:0] pc4;
@@ -86,7 +86,7 @@ module pipecpu(clk, rst, instr, readdata, PC, MemWrite, aluout, writedata, reg_s
    		.ins(instr),                 //input: instr
    		.pc(PC),                     //input: PC
    		.bpc(bpc),                   //input: bpc
-   		.rpc(rpc),                   //input: rpc
+   		.rpc(da),                   //input: rpc
    		.jpc(jpc),                   //input: jpc
    		.npc(npc),                   //output: npc
    		.pc4(pc4),                   //output: pc4
