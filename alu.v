@@ -34,13 +34,13 @@ module alu(A, B, ALUOp, C, Zero);
           `ALU_OR:   C = A | B;                      // OR/ORI
           `ALU_SLT:  C = (A < B) ? 32'd1 : 32'd0;    // SLT/SLTI
           `ALU_SLTU: C = ({1'b0, A} < {1'b0, B}) ? 32'd1 : 32'd0;
-		      `ALU_NOR:  C = ~(A | B);
-		      `ALU_SLL:  C = B << A;                     //sll
-		      `ALU_SRL:  C = B >> A;                     //srl
-		      `ALU_SRA:  C = B >>> A;                    //sra
-		      `ALU_SLLV: C = B << A;                     //sllv
-		      `ALU_SRLV: C = B >> A;                     //srlv
-		      `ALU_SLL16: C = B << 16;                   //lui
+	      `ALU_NOR:  C = ~(A | B);
+	      `ALU_SLL:  C = B << A;                     //sll
+	      `ALU_SRL:  C = B >> A;                     //srl
+	      `ALU_SRA:  C = B >>> A;                    //sra
+	      `ALU_SLLV: C = B << A;                     //sllv
+	      `ALU_SRLV: C = B >> A;                     //srlv
+	      `ALU_SLL16: C = B << 16;                   //lui
           default:   C = A;                          // Undefined
       endcase
    end // end always
