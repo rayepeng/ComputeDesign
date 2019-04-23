@@ -1,0 +1,661 @@
+
+*** Running vivado
+    with args -log IP2SOC_Top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source IP2SOC_Top.tcl
+
+'#if' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#)' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+****** Vivado v2017.1 (64-bit)
+  **** SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+  **** IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source IP2SOC_Top.tcl -notrace
+Command: synth_design -top IP2SOC_Top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t-csg324'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t-csg324'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2152 
+'#if' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'#)' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 361.172 ; gain = 74.531
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'IP2SOC_Top' [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/FPGATop/SCPU_Top.v:3]
+INFO: [Synth 8-638] synthesizing module 'clk_div' [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/FPGATop/clk_div.v:21]
+INFO: [Synth 8-256] done synthesizing module 'clk_div' (1#1) [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/FPGATop/clk_div.v:21]
+INFO: [Synth 8-638] synthesizing module 'sccpu' [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/pipecpu.v:1]
+INFO: [Synth 8-638] synthesizing module 'pipepc' [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/pipepc.v:1]
+INFO: [Synth 8-638] synthesizing module 'dffe32' [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/dffe32.v:1]
+INFO: [Synth 8-256] done synthesizing module 'dffe32' (2#1) [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/dffe32.v:1]
+INFO: [Synth 8-256] done synthesizing module 'pipepc' (3#1) [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/pipepc.v:1]
+INFO: [Synth 8-638] synthesizing module 'pipeif' [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/pipeif.v:1]
+INFO: [Synth 8-638] synthesizing module 'mux4x32' [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/mux4x32.v:1]
+INFO: [Synth 8-256] done synthesizing module 'mux4x32' (4#1) [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/mux4x32.v:1]
+INFO: [Synth 8-256] done synthesizing module 'pipeif' (5#1) [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/pipeif.v:1]
+INFO: [Synth 8-638] synthesizing module 'pipeir' [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/pipeir.v:1]
+INFO: [Synth 8-256] done synthesizing module 'pipeir' (6#1) [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/pipeir.v:1]
+INFO: [Synth 8-638] synthesizing module 'pipeid' [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/pipeid.v:1]
+INFO: [Synth 8-638] synthesizing module 'pipeidcu' [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/pipeidcu.v:1]
+INFO: [Synth 8-256] done synthesizing module 'pipeidcu' (7#1) [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/pipeidcu.v:1]
+INFO: [Synth 8-638] synthesizing module 'regfile' [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/regfile.v:1]
+WARNING: [Synth 8-6014] Unused sequential element i was removed.  [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/regfile.v:16]
+INFO: [Synth 8-256] done synthesizing module 'regfile' (8#1) [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/regfile.v:1]
+INFO: [Synth 8-638] synthesizing module 'mux2x5' [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/mux2x5.v:1]
+INFO: [Synth 8-256] done synthesizing module 'mux2x5' (9#1) [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/mux2x5.v:1]
+INFO: [Synth 8-256] done synthesizing module 'pipeid' (10#1) [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/pipeid.v:1]
+INFO: [Synth 8-638] synthesizing module 'pipedereg' [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/pipedereg.v:1]
+INFO: [Synth 8-256] done synthesizing module 'pipedereg' (11#1) [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/pipedereg.v:1]
+INFO: [Synth 8-638] synthesizing module 'pipeexe' [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/pipeexe.v:1]
+INFO: [Synth 8-638] synthesizing module 'mux2x32' [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/mux2x32.v:1]
+INFO: [Synth 8-256] done synthesizing module 'mux2x32' (12#1) [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/mux2x32.v:1]
+INFO: [Synth 8-638] synthesizing module 'alu' [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/alu.v:17]
+INFO: [Synth 8-256] done synthesizing module 'alu' (13#1) [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/alu.v:17]
+INFO: [Synth 8-256] done synthesizing module 'pipeexe' (14#1) [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/pipeexe.v:1]
+INFO: [Synth 8-638] synthesizing module 'pipeemreg' [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/pipeemreg.v:1]
+INFO: [Synth 8-256] done synthesizing module 'pipeemreg' (15#1) [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/pipeemreg.v:1]
+INFO: [Synth 8-638] synthesizing module 'pipemwreg' [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/pipemwreg.v:1]
+INFO: [Synth 8-256] done synthesizing module 'pipemwreg' (16#1) [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/pipemwreg.v:1]
+WARNING: [Synth 8-3848] Net reg_data in module/entity sccpu does not have driver. [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/pipecpu.v:31]
+INFO: [Synth 8-256] done synthesizing module 'sccpu' (17#1) [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/PCPU/pipecpu.v:1]
+INFO: [Synth 8-638] synthesizing module 'imem' [D:/CodWork1/CoDwork/CoDwork.runs/synth_1/.Xil/Vivado-584-A203-7/realtime/imem_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'imem' (18#1) [D:/CodWork1/CoDwork/CoDwork.runs/synth_1/.Xil/Vivado-584-A203-7/realtime/imem_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'dm' [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/FPGATop/dm.v:3]
+INFO: [Synth 8-256] done synthesizing module 'dm' (19#1) [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/FPGATop/dm.v:3]
+INFO: [Synth 8-638] synthesizing module 'MIO_BUS' [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/FPGATop/MIO_BUS.v:24]
+INFO: [Synth 8-256] done synthesizing module 'MIO_BUS' (20#1) [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/FPGATop/MIO_BUS.v:24]
+INFO: [Synth 8-638] synthesizing module 'Multi_CH32' [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/FPGATop/Multi_CH32.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Multi_CH32' (21#1) [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/FPGATop/Multi_CH32.v:23]
+INFO: [Synth 8-638] synthesizing module 'seg7x16' [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/FPGATop/seg7x16.v:21]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/FPGATop/seg7x16.v:87]
+INFO: [Synth 8-256] done synthesizing module 'seg7x16' (22#1) [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/FPGATop/seg7x16.v:21]
+INFO: [Synth 8-256] done synthesizing module 'IP2SOC_Top' (23#1) [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/FPGATop/SCPU_Top.v:3]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[31]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[30]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[29]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[28]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[27]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[26]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[25]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[24]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[23]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[22]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[21]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[20]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[19]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[18]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[17]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[16]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[15]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[14]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[13]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[12]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[11]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[10]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[9]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[8]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[7]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[6]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[5]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[4]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[3]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[2]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[1]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_data[0]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_sel[4]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_sel[3]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_sel[2]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_sel[1]
+WARNING: [Synth 8-3331] design sccpu has unconnected port reg_sel[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 400.500 ; gain = 113.859
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 400.500 ; gain = 113.859
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/CodWork1/CoDwork/CoDwork.runs/synth_1/.Xil/Vivado-584-A203-7/dcp3/imem_in_context.xdc] for cell 'U_IM'
+Finished Parsing XDC File [D:/CodWork1/CoDwork/CoDwork.runs/synth_1/.Xil/Vivado-584-A203-7/dcp3/imem_in_context.xdc] for cell 'U_IM'
+Parsing XDC File [D:/CodWork1/CoDwork/CoDwork.srcs/constrs_1/imports/PoDWork/Nexys4DDR_CPU.xdc]
+Finished Parsing XDC File [D:/CodWork1/CoDwork/CoDwork.srcs/constrs_1/imports/PoDWork/Nexys4DDR_CPU.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/CodWork1/CoDwork/CoDwork.srcs/constrs_1/imports/PoDWork/Nexys4DDR_CPU.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/IP2SOC_Top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/IP2SOC_Top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 800.605 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 800.605 ; gain = 513.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 800.605 ; gain = 513.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U_IM. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 800.605 ; gain = 513.965
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element clkdiv_reg was removed.  [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/FPGATop/clk_div.v:32]
+INFO: [Synth 8-5546] ROM "register_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "o_seg_r" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element cnt_reg was removed.  [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/FPGATop/seg7x16.v:34]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 800.605 ; gain = 513.965
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 44    
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 3     
+	   2 Input     32 Bit        Muxes := 7     
+	   3 Input     32 Bit        Muxes := 3     
+	  11 Input     32 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   3 Input      7 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 34    
+	   3 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module clk_div 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module dffe32 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module mux4x32 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module pipeif 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module pipeidcu 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 4     
+Module regfile 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 31    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 31    
+Module mux2x5 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module pipeid 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+Module pipedereg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
+Module mux2x32 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
+Module pipeexe 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module pipeemreg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
+Module pipemwreg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
+Module MIO_BUS 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   3 Input     32 Bit        Muxes := 3     
+	   2 Input      7 Bit        Muxes := 1     
+	   3 Input      7 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 2     
+Module Multi_CH32 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	  11 Input     32 Bit        Muxes := 1     
+Module seg7x16 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element U_CLKDIV/clkdiv_reg was removed.  [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/FPGATop/clk_div.v:32]
+WARNING: [Synth 8-6014] Unused sequential element U_7SEG/cnt_reg was removed.  [D:/CodWork1/CoDwork/CoDwork.srcs/sources_1/imports/PoDWork/FPGATop/seg7x16.v:34]
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[18]' (FDC) to 'U_SCPU/de_reg/eimm_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[26]' (FDC) to 'U_SCPU/de_reg/eimm_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[30]' (FDC) to 'U_SCPU/de_reg/eimm_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[22]' (FDC) to 'U_SCPU/de_reg/eimm_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[16]' (FDC) to 'U_SCPU/de_reg/eimm_reg[17]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[24]' (FDC) to 'U_SCPU/de_reg/eimm_reg[17]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[28]' (FDC) to 'U_SCPU/de_reg/eimm_reg[17]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[20]' (FDC) to 'U_SCPU/de_reg/eimm_reg[17]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[17]' (FDC) to 'U_SCPU/de_reg/eimm_reg[19]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[25]' (FDC) to 'U_SCPU/de_reg/eimm_reg[19]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[29]' (FDC) to 'U_SCPU/de_reg/eimm_reg[19]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[21]' (FDC) to 'U_SCPU/de_reg/eimm_reg[19]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[31]' (FDC) to 'U_SCPU/de_reg/eimm_reg[19]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[23]' (FDC) to 'U_SCPU/de_reg/eimm_reg[19]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[27]' (FDC) to 'U_SCPU/de_reg/eimm_reg[19]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\U_7SEG/o_seg_r_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (U_CLKDIV/clkdiv_reg[26]) is unused and will be removed from module IP2SOC_Top.
+WARNING: [Synth 8-3332] Sequential element (U_CLKDIV/clkdiv_reg[27]) is unused and will be removed from module IP2SOC_Top.
+WARNING: [Synth 8-3332] Sequential element (U_CLKDIV/clkdiv_reg[28]) is unused and will be removed from module IP2SOC_Top.
+WARNING: [Synth 8-3332] Sequential element (U_CLKDIV/clkdiv_reg[29]) is unused and will be removed from module IP2SOC_Top.
+WARNING: [Synth 8-3332] Sequential element (U_CLKDIV/clkdiv_reg[30]) is unused and will be removed from module IP2SOC_Top.
+WARNING: [Synth 8-3332] Sequential element (U_CLKDIV/clkdiv_reg[31]) is unused and will be removed from module IP2SOC_Top.
+WARNING: [Synth 8-3332] Sequential element (U_7SEG/o_seg_r_reg[7]) is unused and will be removed from module IP2SOC_Top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 800.605 ; gain = 513.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+---------------+-----------+----------------------+------------------+
+|Module Name | RTL Object    | Inference | Size (Depth x Width) | Primitives       | 
++------------+---------------+-----------+----------------------+------------------+
+|IP2SOC_Top  | U_DM/dmem_reg | Implied   | 128 x 32             | RAM128X1S x 32   | 
++------------+---------------+-----------+----------------------+------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 800.605 ; gain = 513.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:48 . Memory (MB): peak = 800.605 ; gain = 513.965
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 821.320 ; gain = 534.680
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 821.320 ; gain = 534.680
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 821.320 ; gain = 534.680
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:46 ; elapsed = 00:00:51 . Memory (MB): peak = 821.320 ; gain = 534.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:46 ; elapsed = 00:00:51 . Memory (MB): peak = 821.320 ; gain = 534.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:46 ; elapsed = 00:00:51 . Memory (MB): peak = 821.320 ; gain = 534.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:46 ; elapsed = 00:00:51 . Memory (MB): peak = 821.320 ; gain = 534.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |imem          |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |imem      |     1|
+|2     |BUFG      |     3|
+|3     |CARRY4    |    59|
+|4     |LUT1      |   152|
+|5     |LUT2      |   189|
+|6     |LUT3      |   141|
+|7     |LUT4      |    71|
+|8     |LUT5      |   354|
+|9     |LUT6      |  1330|
+|10    |MUXF7     |   277|
+|11    |MUXF8     |    64|
+|12    |RAM128X1S |    32|
+|13    |FDCE      |  1451|
+|14    |FDPE      |    23|
+|15    |IBUF      |    18|
+|16    |OBUF      |    16|
++------+----------+------+
+
+Report Instance Areas: 
++------+----------------------+-----------+------+
+|      |Instance              |Module     |Cells |
++------+----------------------+-----------+------+
+|1     |top                   |           |  4212|
+|2     |  U_7SEG              |seg7x16    |   107|
+|3     |  U_CLKDIV            |clk_div    |    61|
+|4     |  U_DM                |dm         |    32|
+|5     |  U_Multi             |Multi_CH32 |    32|
+|6     |  U_SCPU              |sccpu      |  3911|
+|7     |    de_reg            |pipedereg  |  1059|
+|8     |    em_reg            |pipeemreg  |   453|
+|9     |    exe_stage         |pipeexe    |    75|
+|10    |      alu_ina         |mux2x32_2  |    11|
+|11    |      alu_inb         |mux2x32_3  |    32|
+|12    |      al_unit         |alu        |    24|
+|13    |    id_stage          |pipeid     |  1905|
+|14    |      rf              |regfile    |  1897|
+|15    |    if_stage          |pipeif     |     8|
+|16    |    inst_reg          |pipeir     |   181|
+|17    |      instruction     |dffe32_0   |   116|
+|18    |      pc_plus4        |dffe32_1   |    65|
+|19    |    mw_reg            |pipemwreg  |   103|
+|20    |    prog_cnt          |pipepc     |    95|
+|21    |      program_counter |dffe32     |    95|
+|22    |    wb_stage          |mux2x32    |    32|
++------+----------------------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:46 ; elapsed = 00:00:51 . Memory (MB): peak = 821.320 ; gain = 534.680
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 11 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:37 ; elapsed = 00:00:44 . Memory (MB): peak = 821.320 ; gain = 134.574
+Synthesis Optimization Complete : Time (s): cpu = 00:00:47 ; elapsed = 00:00:51 . Memory (MB): peak = 821.320 ; gain = 534.680
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 109 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 32 instances were transformed.
+  RAM128X1S => RAM128X1S (MUXF7, RAMS64E, RAMS64E): 32 instances
+
+106 Infos, 50 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:48 ; elapsed = 00:00:57 . Memory (MB): peak = 821.320 ; gain = 540.945
+INFO: [Common 17-1381] The checkpoint 'D:/CodWork1/CoDwork/CoDwork.runs/synth_1/IP2SOC_Top.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 821.320 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 21 09:23:06 2019...
